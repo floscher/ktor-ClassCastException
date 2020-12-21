@@ -1,0 +1,9 @@
+name: Test
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        container: openjdk:8-alpine
+        steps:
+            - uses: actions/checkout@v2.3.4
+            - run: ./gradlew test
