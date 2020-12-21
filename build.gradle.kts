@@ -16,7 +16,7 @@ tasks.withType(Test::class) {
 }
 
 dependencies {
-  implementation("io.ktor:ktor-server-core:1.4.2")
-  implementation("io.ktor:ktor-server-netty:1.4.2")
+  implementation("io.ktor:ktor-server-core:1.4.1")
+  implementation("io.ktor:ktor-server-netty:1.4.1")
   implementation("org.junit.jupiter:junit-jupiter:5.7.0")
 }
